@@ -25,3 +25,4 @@ informationa about my family and racha willbe displayed in the web site
 * HTML 
 * CSS
 * JavaScript
+* will be updated
