@@ -16,6 +16,14 @@ body {
   line-height:1.428571429;
   }
 
+  #bgi {
+    background-image: url("https://images.unsplash.com/photo-1579546929518-9e396f3cc809?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjExMzk2fQ&w=1000&q=80");
+    background-position: center center; 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }  
+
   h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6{font-family:"HelveticaNeue-Light","Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;font-weight:normal;line-height:1.1;color:#333}h1 small,h2 small,h3 small,h4 small,h5 small,h6 small,.h1 small,.h2 small,.h3 small,.h4 small,.h5 small,.h6 small{font-weight:normal;line-height:1}
 h1,.h1{color: blue; font-size:45px;line-height:48px}
 h2,.h2{color: rgb(211, 46, 95, 0.5); font-size:36px; font-weight: bold; line-height:42px; background-color: rgba(195, 221, 195, 0.5)}
