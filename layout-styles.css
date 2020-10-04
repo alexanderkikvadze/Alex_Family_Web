@@ -49,6 +49,20 @@ a:hover,a:focus{color:#165db5;text-decoration:underline}
 .text-center{text-align:center} */
 
 /* unvisited link */
+
+.button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 20px 120px 20px 100px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
 a:link {
   color: red;
 }
@@ -66,6 +80,29 @@ a:hover {
 /* selected link */
 a:active {
   color: blue;
+}
+
+a.button:link {
+  background-color: red;
+  color: white;
+}
+
+/* visited link */
+a.button:visited {
+  background-color: green;
+  color: white;
+}
+
+/* mouse over link */
+a.button:hover {
+  background-color: hotpink;
+  color: white;
+}
+
+/* selected link */
+a.button:active {
+  background-color: blue;
+  color: white;
 }
 
 
