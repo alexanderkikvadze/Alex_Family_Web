@@ -2,36 +2,109 @@ html,body {
   height: 100%;
 }
 
-* {
-    -moz-box-sizing: border-box;
-}
-
 body {
-  background-color: #ededed;
+  background-color: #ededed; 
+   
   color: #424242;
   margin: 0;
   font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;
   font-size:14px;
   line-height:1.428571429;
-}
+  }
 
-h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6{font-family:"HelveticaNeue-Light","Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;font-weight:normal;line-height:1.1;color:#333}h1 small,h2 small,h3 small,h4 small,h5 small,h6 small,.h1 small,.h2 small,.h3 small,.h4 small,.h5 small,.h6 small{font-weight:normal;line-height:1}
-h1,.h1{font-size:45px;line-height:48px}
-h2,.h2{font-size:36px;line-height:42px}
+  #bgi {
+    background-image: url("https://images.unsplash.com/photo-1579546929518-9e396f3cc809?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjExMzk2fQ&w=1000&q=80");
+    background-position: center center; 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }  
+
+  h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6{font-family:"HelveticaNeue-Light","Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;font-weight:normal;line-height:1.1;color:#333}h1 small,h2 small,h3 small,h4 small,h5 small,h6 small,.h1 small,.h2 small,.h3 small,.h4 small,.h5 small,.h6 small{font-weight:normal;line-height:1}
+h1,.h1{color: blue; font-size:45px;line-height:48px}
+h2,.h2{color: rgb(211, 46, 95, 0.5); font-size:36px; font-weight: bold; line-height:42px; background-color: rgba(195, 221, 195, 0.5)}
 h3,.h3{font-size:28px;line-height:36px}
 h4,.h4{font-size:24px;line-height:25px}
 h5,.h5{font-size:20px;line-height:24px}
 h6,.h6{font-size:18px;line-height:24px}
 
-a{color:#3282e6;}
+p1, .p1 {color: red; font-size: 110%; border: 2px}
+p2, .p2 {color: green; font-size: 100%; border: 2px; }
+table, th, td {border: 2px #FFDFA4; padding: 10px; }
+  table {
+      border-spacing: 1px; background-color: #f1f1c1
+  }
+  img.one {
+     height: 70%;
+      width: 70%;
+    }
+
+/* a{color:#3282e6;} 
 a:hover,a:focus{color:#165db5;text-decoration:underline}
 
-.text-center{text-align:center}
+.text-center{text-align:center} */
+
+/* unvisited link */
+
+.button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 20px 120px 20px 100px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+a:link {
+  color: red;
+}
+
+/* visited link */
+a:visited {
+  color: green;
+}
+
+/* mouse over link */
+a:hover {
+  color: hotpink;
+}
+
+/* selected link */
+a:active {
+  color: blue;
+}
+
+a.button:link {
+  background-color: red;
+  color: white;
+}
+
+/* visited link */
+a.button:visited {
+  background-color: green;
+  color: white;
+}
+
+/* mouse over link */
+a.button:hover {
+  background-color: hotpink;
+  color: white;
+}
+
+/* selected link */
+a.button:active {
+  background-color: blue;
+  color: white;
+}
 
 .wrap {
   min-height: 100%;
-  .display: table;
-  .height: 100%;
+  display: table;
+  height: 100%;
 }
 
 .top-bar {
@@ -73,76 +146,6 @@ a:hover,a:focus{color:#165db5;text-decoration:underline}
 
 .welcome-container h1 {
   margin-bottom: 1em;
-}
-
-.btn-primary {
-    background-color: #7FB141;
-    border-color: #648C33;
-    color: #FFFFFF;
-}
-
-input, button, select, textarea {
-    font-family: inherit;
-    font-size: inherit;
-    line-height: inherit;
-}
-button, html input[type="button"], input[type="reset"], input[type="submit"] {
-    cursor: pointer;
-}
-button, select {
-    text-transform: none;
-}
-button, input {
-    line-height: normal;
-}
-button, input, select, textarea {
-    font-family: inherit;
-    font-size: 100%;
-    margin: 0;
-}
-
-.btn {
-    -moz-border-bottom-colors: none;
-    -moz-border-left-colors: none;
-    -moz-border-right-colors: none;
-    -moz-border-top-colors: none;
-    border-color: transparent;
-    border-image: none;
-    border-radius: 0 0 0 0;
-    border-style: solid;
-    border-width: 0 0 3px;
-    cursor: pointer;
-    display: inline-block;
-    font-size: 14px;
-    font-weight: 300;
-    line-height: 1.42857;
-    margin-bottom: 0;
-    padding: 8px 20px;
-    text-align: center;
-    vertical-align: middle;
-    white-space: nowrap;
-    text-decoration: none;
-}
-
-.btn-primary {
-    background-color: #7FB141;
-    border-color: #648C33;
-    color: #FFFFFF;
-}
-
-
-.btn-primary:hover, 
-.btn-primary:focus, 
-.btn-primary:active, 
-.btn-primary.active {
-    background-color: #729E3A;
-    border-color: #496626;
-    color: #fff;
-}
-
-.btn:hover, 
-.btn:focus {
-    text-decoration: none;
 }
 
 .login-container {
