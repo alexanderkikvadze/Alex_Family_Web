@@ -2,10 +2,6 @@ html,body {
   height: 100%;
 }
 
-* {
-    -moz-box-sizing: border-box;
-}
-
 body {
   background-color: #ededed; 
    
